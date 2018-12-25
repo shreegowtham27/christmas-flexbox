@@ -29,14 +29,13 @@ span{
   font-family: 'Great Vibes', cursive;
   font-size:90%;
 }
-footer{
-  color: #000;
-}
-footer p{
-  /*background-color: #000;*/
-
-  font-size: 25px;
-  font-family: sagoe-ui;
+.foot p{
+  background-color: #ff5733;
+  padding: 15px;
+  border-top-right-radius:15px; 
+  border-bottom-left-radius:15px;   
+  font-size: 16px;
+  font-family: 'Segoe UI', Frutiger, 'Frutiger Linotype', 'Dejavu Sans' sans-serif;
+  font-weight: bold;
   float:right;
   color:#ccddcc;
-}
