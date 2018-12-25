@@ -8,6 +8,13 @@ main{
 p,h1,h4{
   display:flex;
   justify-content:center;
+  -webkit-text-size-adjust: auto;
+  -moz-text-size-adjust: auto;
+   text-size-adjust: auto;
+   text-size-adjust: 80%;
+   text-size-adjust: initial;
+
+
 }
 p{
   color:#006400;
@@ -20,10 +27,16 @@ span{
 }
 .text{
   font-family: 'Great Vibes', cursive;
-  font-size:40px;
+  font-size:90%;
 }
 footer{
-  background-color: #cdcdcd;
-  color:#fff;
-  font-size: 16px;
+  color: #000;
+}
+footer p{
+  /*background-color: #000;*/
+
+  font-size: 25px;
+  font-family: sagoe-ui;
+  float:right;
+  color:#ccddcc;
 }
