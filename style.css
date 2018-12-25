@@ -1,0 +1,24 @@
+main{
+  font-size:25px;
+  flex-direction:column;
+  display:flex;
+  justify-content:center;
+  line-height:0.1em;
+}
+p,h1,h4{
+  display:flex;
+  justify-content:center;
+}
+p{
+  color:#006400;
+}h1{
+  color:red;
+}
+
+span{
+  color:blue;
+}
+.text{
+  font-family: 'Great Vibes', cursive;
+  font-size:40px;
+}
